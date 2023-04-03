@@ -6,6 +6,7 @@ const LoginBg = () => {
   const bgColor = useColorModeValue("#a9c6ff", "#062b74")
   return (
     <Box
+      style="background-image:url(http://www.bing.com/th?id=OHR.HonaunauNP_ZH-CN4491662962_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)"
       bgColor={bgColor()}
       pos="fixed"
       top="0"
@@ -26,7 +27,7 @@ const LoginBg = () => {
           "@sm": "-900px",
         }}
       >
-        <CornerTop />
+        {/*<CornerTop />*/}
       </Box>
       <Box
         pos="absolute"
@@ -39,7 +40,7 @@ const LoginBg = () => {
           "@sm": "-400px",
         }}
       >
-        <CornerBottom />
+        {/*<CornerBottom />*/}
       </Box>
     </Box>
   )
